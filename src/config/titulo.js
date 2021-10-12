@@ -1,2 +1,1 @@
-module.exports =
-  'Procesos de producción y ensamble'
+module.exports = 'Procesos de producción y ensamble'
