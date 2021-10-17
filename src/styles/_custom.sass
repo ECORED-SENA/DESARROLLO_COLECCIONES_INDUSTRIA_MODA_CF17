@@ -71,6 +71,32 @@ figcaption
     color: #12263F;
     border: solid 4px #D8EDFF;
 
+
+$cancel: #C33764;
+$secondary: #F2994A;
+$standard: #E8E8E8;
+$submit: #159957;
+$white: #F1F2F2;
+$transition: all 0.25s ease-in-out;
+// mixin
+@mixin mybutton($colorBase, $colorBaseBorde, $colorBaseTexto, $colorHover, $colorHoverBorde, $colorHoverTexto)   
+ 	padding: 10px
+  transition: $transition;
+  border-radius: 15px
+ 	background-color: $colorBase;
+  border: 4px solid $colorBaseBorde
+  color: $colorBaseTexto    
+  box-shadow: none
+  &:hover, &:active, &:focus, &:active:focus 
+    background-color: $colorHover    
+    color: $colorHoverTexto        
+    font-weight: bold
+    border: 4px solid $colorHoverBorde  
+    outline: 0 !important;  
+
+.btn         
+  @include mybutton(#F0F7FD, #B7DCF7, $color-btn-texto, #339CE9, #2C8EEA, #FFFFFF);
+
    
 
   

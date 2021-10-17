@@ -29,7 +29,205 @@
     p.mb-5 Los modelos de producción en la industria de la moda integran principios y fundamentos conceptuales que se manejan deben ser apropiados por el personal que trabaja en el sector, a continuación, se hace referencia de ciertos términos que son importante conocer
     
     div.mb-5
-      p EL componente
+      .row.justify-content-center
+        .col-lg-3
+          button.btn.mb-3(id="button2" style="width:100%" autofocus v-on:click="clickBoton(1)") Productividad
+          button.btn.mb-3(id="button2" style="width:100%" v-on:click="clickBoton(2)") Eficiencia
+          button.btn.mb-3(id="button2" style="width:100%" v-on:click="clickBoton(3)") Efectividad
+          button.btn.mb-3(id="button2" style="width:100%" v-on:click="clickBoton(4)") Balanceo de operaciones
+          button.btn.mb-3(id="button2" style="width:100%" v-on:click="clickBoton(5)") Cuello de botella
+          button.btn.mb-3(id="button2" style="width:100%" v-on:click="clickBoton(6)") Tiempo estándar permitido (SAM)
+          button.btn.mb-3(id="button2" style="width:100%" v-on:click="clickBoton(7)") Tiempo de espera
+          button.btn(id="button2" style="width:100%" v-on:click="clickBoton(8)") Tiempo de producción
+        .col-lg-6.d-flex.py-1
+          div.d-flex.align-items-top.py-5(style="width:100%; background-color: #F6F6F6; border-radius:15px")
+            div.align-items-center(style="width:100%" v-if="mostrardiv==1")
+              .row.mb-4
+                .col-lg-2
+                .col-lg-4
+                  figure
+                    img(src='@/assets/curso/tema3/img23.svg')   
+              .row.mb-0
+                .col-lg-2
+                .col-lg-8
+                  h4 Productividad
+                  p.mb-0 Es la relación entre la cantidad de productos obtenida por un sistema productivo y los recursos utilizados para obtener dicha producción. También puede definirse como la relación entre los resultados y el tiempo utilizado para obtenerlos: cuanto menor sea el tiempo que lleve obtener el resultado deseado, más productivo es el sistema.
+            div.align-items-center(style="width:100%" v-if="mostrardiv==2")             
+              .row.mb-4
+                .col-lg-2
+                .col-lg-4
+                  figure
+                    img(src='@/assets/curso/tema3/img24.svg')   
+              .row.mb-0
+                .col-lg-2
+                .col-lg-8
+                  h4 Eficiencia
+                  p.mb-0 Indica la utilización apropiada de los recursos y los resultados obtenidos( producir más con menos).
+            div.align-items-center(style="width:100%" v-if="mostrardiv==3")
+              .row.mb-4
+                .col-lg-2
+                .col-lg-4
+                  figure
+                    img(src='@/assets/curso/tema3/img25.svg')   
+              .row.mb-0
+                .col-lg-2
+                .col-lg-8
+                  h4 Efectividad
+                  p.mb-0 Referencia la capacidad o habilidad que puede demostrar una persona, una máquina, un dispositivo o cualquier elemento para obtener determinado resultado a partir de una acción.
+            div.align-items-center(style="width:100%" v-if="mostrardiv==4")
+              .row.mb-4
+                .col-lg-2
+                .col-lg-4
+                  figure
+                    img(src='@/assets/curso/tema3/img22.svg')   
+              .row.mb-0
+                .col-lg-2
+                .col-lg-8
+                  h4 Balanceo de operaciones
+                  p.mb-0 Es la forma de organizar el trabajo en el módulo de producción, se planea acorde a los tiempos de las operaciones asignadas para la fabricación de producto y el total de la meta a producir. Tienen como objetivo determinar el número de operarios y máquinas   disponibles para lograr la meta de producción   en los tiempos establecidos por el área de ingeniería, de manera que las cargas de trabajo (tiempo) sean los más similares posibles.
+            div.align-items-center(style="width:100%" v-if="mostrardiv==5")
+              .row.mb-4
+                .col-lg-2
+                .col-lg-4
+                  figure
+                    img(src='@/assets/curso/tema3/img26.svg')   
+              .row.mb-0
+                .col-lg-2
+                .col-lg-8
+                  h4 Cuello de botella
+                  p.mb-0 En un proceso productivo se denomina cuello de botella al proceso más lento, debido a la complejidad de la operación por el método o herramienta utilizado. 
+            div.align-items-center(style="width:100%" v-if="mostrardiv==6")
+              .row.mb-4
+                .col-lg-2
+                .col-lg-4
+                  figure
+                    img(src='@/assets/curso/tema3/img27.svg')   
+              .row.mb-0
+                .col-lg-2
+                .col-lg-8
+                  h4 Tiempo estándar permitido (SAM)
+                  p.mb-0 Son los tiempos permitidos y asignados a una operación, una vez se haya realizado un estudio de métodos y tiempos. 
+            div.align-items-center(style="width:100%" v-if="mostrardiv==7")
+              .row.mb-4
+                .col-lg-2
+                .col-lg-4
+                  figure
+                    img(src='@/assets/curso/tema3/img28.svg')   
+              .row.mb-0
+                .col-lg-2
+                .col-lg-8
+                  h4 Tiempo de espera
+                  p.mb-0 Son aquellos tiempos en que tiene que esperar un producto, antes de ser atendido en el proceso en la línea de producción. 
+            div.align-items-center(style="width:100%" v-if="mostrardiv==8")
+              .row.mb-4
+                .col-lg-2
+                .col-lg-4
+                  figure
+                    img(src='@/assets/curso/tema3/img29.svg')   
+              .row.mb-0
+                .col-lg-2
+                .col-lg-8
+                  h4 Tiempo de producción
+                  p.mb-0 Es el tiempo total de producción desde que inicia la primera operación hasta que termina la última operación, no se tienen en cuenta los tiempos perdidos del proceso productivo. 
+            div.align-items-center(style="width:100%" v-if="mostrardiv==9")
+              .row.mb-4
+                .col-lg-2
+                .col-lg-4
+                  figure
+                    img(src='@/assets/curso/tema3/img30.svg')   
+              .row.mb-0
+                .col-lg-2
+                .col-lg-8
+                  h4 Tiempo de prepación
+                  p.mb-0 Son los tiempos asignados para la preparación de los equipos y las personas para estar en capacidad de realizar una producción.
+            div.align-items-center(style="width:100%" v-if="mostrardiv==10")
+              .row.mb-4
+                .col-lg-2
+                .col-lg-4
+                  figure
+                    img(src='@/assets/curso/tema3/img31.svg')   
+              .row.mb-0
+                .col-lg-2
+                .col-lg-8
+                  h4 Tiempo de operación
+                  p.mb-0 Es el tiempo estándar de producción (SAM)para realizar una operación .
+            div.align-items-center(style="width:100%" v-if="mostrardiv==11")
+              .row.mb-4
+                .col-lg-2
+                .col-lg-4
+                  figure
+                    img(src='@/assets/curso/tema3/img32.svg')   
+              .row.mb-0
+                .col-lg-2
+                .col-lg-8
+                  h4 Valor minuto
+                  p.mb-0 Es el valor pagado por cada minuto de operación en un proceso de fabricación .
+            div.align-items-center(style="width:100%" v-if="mostrardiv==12")
+              .row.mb-4
+                .col-lg-2
+                .col-lg-4
+                  figure
+                    img(src='@/assets/curso/tema3/img33.svg')   
+              .row.mb-0
+                .col-lg-2
+                .col-lg-8
+                  h4 Procesos en serie
+                  p.mb-0 Es la producción secuencial de un producto a partir de un orden operacional, la estandarización de tiempos y las operaciones. 
+            div.align-items-center(style="width:100%" v-if="mostrardiv==13")
+              .row.mb-4
+                .col-lg-2
+                .col-lg-4
+                  figure
+                    img(src='@/assets/curso/tema3/img34.svg')   
+              .row.mb-0
+                .col-lg-2
+                .col-lg-8
+                  h4 UR: Unidades realizadas
+                  p.mb-0 Son las unidades realizadas en un periodo de tiempo determinado.
+            div.align-items-center(style="width:100%" v-if="mostrardiv==14")
+              .row.mb-4
+                .col-lg-2
+                .col-lg-4
+                  figure
+                    img(src='@/assets/curso/tema3/img35.svg')   
+              .row.mb-0
+                .col-lg-2
+                .col-lg-8
+                  h4 TW: Tiempo trabajado
+                  p.mb-0 Son los tiempos de trabajo reales, una vez se descuentan los tiempos perdidos de producción (paros fallas de máquinas u otras).
+            div.align-items-center(style="width:100%" v-if="mostrardiv==15")
+              .row.mb-4
+                .col-lg-2
+                .col-lg-4
+                  figure
+                    img(src='@/assets/curso/tema3/img36.svg')   
+              .row.mb-0
+                .col-lg-2
+                .col-lg-8
+                  h4 T.T: Tiempo total
+                  p.mb-0 Es el tiempo total del lote de producción, incluidos los tiempos perdidos.
+            div.align-items-center(style="width:100%" v-if="mostrardiv==16")
+              .row.mb-4
+                .col-lg-2
+                .col-lg-4
+                  figure
+                    img(src='@/assets/curso/tema3/img37.svg')   
+              .row.mb-0
+                .col-lg-2
+                .col-lg-8
+                  h4 Op: Operación
+                  p.mb-0 Acción realizada sobre un producto en una etapa  de su proceso de producción .
+              
+        .col-lg-3
+          button.btn.mb-3(id="button2" style="width:100%" v-on:click="clickBoton(9)") Tiempo de prepación
+          button.btn.mb-3(id="button2" style="width:100%" v-on:click="clickBoton(10)") Tiempo de operación
+          button.btn.mb-3(id="button2" style="width:100%" v-on:click="clickBoton(11)") Valor minuto
+          button.btn.mb-3(id="button2" style="width:100%" v-on:click="clickBoton(12)") Procesos en serie
+          button.btn.mb-3(id="button2" style="width:100%" v-on:click="clickBoton(13)") UR: Unidades realizadas
+          button.btn.mb-3(id="button2" style="width:100%" v-on:click="clickBoton(14)") TW: Tiempo trabajado
+          button.btn.mb-3(id="button2" style="width:100%" v-on:click="clickBoton(15)") T.T: Tiempo total
+          button.btn.mb-3(id="button2" style="width:100%" v-on:click="clickBoton(16)") Op: Operación
+      
 
     h3 La planificación de la producción
 
@@ -267,7 +465,7 @@
 export default {
   name: 'Tema3',
   data: () => ({
-    // variables de vue
+    mostrardiv: 1,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -276,6 +474,11 @@ export default {
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    clickBoton: function(capa) {
+      this.mostrardiv = capa
+    },
   },
 }
 </script>
