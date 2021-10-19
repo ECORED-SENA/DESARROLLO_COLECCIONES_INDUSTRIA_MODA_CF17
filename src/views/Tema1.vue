@@ -177,12 +177,12 @@
         figure.mb-4
           img(src='@/assets/curso/tema1/img09.svg') 
         h4 Talento humano
-        p.mb-0 Colaboradores que deben tener un nivel de conocimientos, habilidades y destrezas para el desarrollo de un proceso, mente abierta y totalmente creativos
+        p.mb-0 Colaboradores que deben tener un nivel de conocimientos, habilidades y destrezas para el desarrollo de un proceso, mente abierta y totalmente creativos.
       .col-4
         figure.mb-4
           img(src='@/assets/curso/tema1/img10.svg') 
         h4 Máquinas y equipos
-        p.mb-0 Nivel de tecnología acorde con los requerimientos del producto a procesar; en la confección se cuenta con tecnología de primera, segunda, tercera y cuarta generación
+        p.mb-0 Nivel de tecnología acorde con los requerimientos del producto a procesar; en la confección se cuenta con tecnología de primera, segunda, tercera y cuarta generación.
       .col-4
         figure.mb-4
           img(src='@/assets/curso/tema1/img11.svg') 

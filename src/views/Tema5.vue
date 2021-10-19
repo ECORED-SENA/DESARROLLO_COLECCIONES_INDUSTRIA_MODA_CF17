@@ -32,7 +32,7 @@
           .col-lg-5.d-flex.align-items-center
             div
               h4 Tamaño de la empresa
-              p.mb-0 Acorde con el decreto 957 del 5 de junio del 2019, las empresas se clasifican por su nivel de ingresos según las Unidades de Valor Tributario (UVT), y cada unidad de valor tributario tiene su equivalente en pesos ($) que varía cada año, por ejemplo para el 2020 la UVT $35. 607.
+              p.mb-0 Acorde con el decreto 957 del 5 de junio del 2019, las empresas se clasifican por su nivel de ingresos según las Unidades de Valor Tributario (UVT), y cada unidad de valor tributario tiene su equivalente en pesos ($) que varía cada año, por ejemplo para el 2020 la UVT $35.607.
         .row.justify-content-center.mb-5
           .col-lg-10
             div.mb-2.BorTit      
@@ -182,7 +182,7 @@
     
     .row.justify-content-center.mb-4
       .col-lg-5
-        p.mb-0 Los elementos esenciales del contrato de   trabajo son: la actividad personal del trabajador, la continua subordinación o dependencia del trabajador, respecto al empleador, y un salario como retribución. (Art. 1 de la Ley 50 de 1990)
+        p.mb-0 Los elementos esenciales del contrato de   trabajo son: la actividad personal del trabajador, la continua subordinación o dependencia del trabajador, respecto al empleador, y un salario como retribución. (Art. 1 de la Ley 50 de 1990).
       .col-lg-7
         p.mb-0 Se presume que toda relación de trabajo está regida por un contrato de trabajo (Art. 2. Ley 50 de 1990)   No obstante quien habitualmente preste sus servicios personales remunerados, en ejercicio de una profesión o desarrollo de un contrato civil o comercial, y pretenda alegar el carácter de laboral de la su relación deberá probar la subordinación de la relación .
     
