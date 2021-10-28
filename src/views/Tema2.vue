@@ -91,8 +91,8 @@
             p.mb-0 La comercialización es quizás el proceso más importante para una empresa, entender al cliente que le gusta, cuáles son sus necesidades y preferencias, comprender su estilo de vida, es el gran reto que enfrentan los diseñadores de hoy.
 
     figure
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
+      .video      
+        iframe(iframe width="1255" height="706" src="https://www.youtube.com/embed/69f_RCZJPAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
     
     Separador
 </template>

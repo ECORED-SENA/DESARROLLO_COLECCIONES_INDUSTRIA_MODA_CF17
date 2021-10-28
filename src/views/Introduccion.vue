@@ -10,8 +10,8 @@
       h1 Introducción
     
     figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
+      .video        
+        iframe(width="1255" height="706" src="https://www.youtube.com/embed/PJ-1Zc8Hju4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)    
     
     p.mb-5 Elaborar una prenda o una colección de moda, generalmente surge con una idea o investigación sobre tendencias en el contexto o fuera de él; la elaboración de bosquejos sobre los diseños, la selección de insumos, telas y ensamble de los detalles, son los pasos fundamentales para que exista un proceso de producción que exige la industria de la moda.
 

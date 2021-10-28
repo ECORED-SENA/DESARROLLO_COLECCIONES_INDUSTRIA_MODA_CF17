@@ -86,12 +86,12 @@
         .titulo-segundo
           h2 Costo de un minuto
         p.mb-5 Para saber el costo de un minuto es importante conocer el salario mensual con todas las prestaciones sociales que se provisionan cada mes como se muestra a continuación: 
-        a.boton.color-acento-botones.texto-blanco(style="background-color: #FFD947;" :href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.boton.color-acento-botones.texto-blanco(style="background-color: #FFD947;" :href="obtenerLink('/downloads/Costos_Minuto.pdf')" target="_blank")
           span(style="color: #12263F !important") Descargar
           i.fas.fa-file-download(style="color: #12263F !important")
       .col-lg-1
 
-    p.mb-5 Para una mayor comprensión le invitamos a ver el anexo E <b>“Valor del minuto”</b> y el video <b>Cómo calcular el costo minuto mano de obra directos.</b>
+    p.mb-5 Para una mayor comprensión le invitamos a ver el video <b>Cómo calcular el costo minuto mano de obra directos.</b>
     
     .row.justify-content-center.mb-5
       .col-4.d-flex
@@ -99,13 +99,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p <b>Video.</b> Cómo calcular el costo minuto mano de obra directos.
-      .col-4.d-flex
-        a.anexo.mb-4.mb-lg-0(style="width:100%" :href="obtenerLink('/downloads/Anexo_E_Valor_minuto.xlsx')"  target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-xls.svg")
-          .anexo__texto
-            p <b>Anexo.</b> Valor del minuto.
+            p <b>Video.</b> Cómo calcular el costo minuto mano de obra directos.      
     
     
     Separador 
