@@ -11,7 +11,7 @@
 
     .row.justify-content-center.mb-5
       .col-5
-        a.anexo(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo(:href="obtenerLink('/downloads/Anexo_H7_EscaletaProduccion.pdf')" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto

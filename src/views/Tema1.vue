@@ -153,7 +153,7 @@
 
     .row.justify-content-center
       .col-6
-        a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=2F5nOEfttIk" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=CJdTlzDa2n4" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto

@@ -117,7 +117,7 @@
         .titulo-segundo
           h2 Costos de una prenda
         p.mb-5 Para saber los costos de una prenda, es importante entender la estructura de una hoja de costos por unidad, la cual comprende los componentes del producto, los procesos de la prenda y el empaque, así como las unidades de consumo y el precio por unidad.  Para una mayor comprensión lo invitamos a analizar la siguiente hoja de costos. 
-        a.boton.color-acento-botones.texto-blanco(style="background-color: #FFD947;" :href="obtenerLink('/downloads/Anexo F_Tabla-CostosDeUnaPrenda.xlsx')" target="_blank")
+        a.boton.color-acento-botones.texto-blanco(style="background-color: #FFD947;" :href="obtenerLink('/downloads/Anexo_F_Tabla-CostosDeUnaPrenda.xlsx')" target="_blank")
           span(style="color: #12263F !important") Descargar
           i.fas.fa-file-download(style="color: #12263F !important")
       .col-lg-1
